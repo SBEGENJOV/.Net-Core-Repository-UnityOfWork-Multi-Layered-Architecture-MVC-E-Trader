@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ModelLayer.OdemeYontem>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h2>Ödeme Yöntem List</h2>
+        </div>
+        <div class="col-6">
+            <a asp-controller="OdemeYontem" asp-action="Crup" class="btn btn-primary ">
+                <span>Yeni Siparis Durum</span>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+
+        <table class="table table-bordered table-striped my-2">
+            <thead>
+                <tr>
+                    <th>Ödeme Yöntem ID</th>
+                    <th>Ad</th>
+                    <th>Açıklama</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item != null)
+                    {
+                        <tr>
+                            <td>@item.odemeYontemID</td>
+                            <td>@item.ad</td>
+                            <td>@item.aciklama</td>
+                            <td>
+                                <a asp-controller="OdemeYontem" asp-action="Crup" asp-route-id="@item.odemeYontemID" class="btn btn-primary">
+                                    Edit
+                                </a>
+                                <a asp-controller="OdemeYontem" asp-action="Delete" asp-route-id="@item.odemeYontemID" class="btn btn-danger">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

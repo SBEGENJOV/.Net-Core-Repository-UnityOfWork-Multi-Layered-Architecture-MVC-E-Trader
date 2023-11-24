@@ -1,0 +1,21 @@
+﻿@model ModelLayer.VM.UrunlerVM
+
+<h2>@(Model.Urun.urunID <= 0 ? "Add" : "Edit")</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="Urun.urunID" type="hidden" />
+    <div class="container">
+        <label>Kategory Adı:</label>
+        <select asp-for="Urun.kategoriID" asp-items="@Model.KategoriList" class="form-control">
+            <option disabled selected>---Category Select Please</option>
+        </select><br />
+        <label>Ürün Ad:</label>
+        <input asp-for="Urun.ad" class="form-control" /><br />
+        <label>Ürün Aıklama:</label>
+        <input asp-for="Urun.aciklama" class="form-control" /><br />
+        <label>Ürün Fiyat:</label>
+        <input asp-for="Urun.fiyat" class="form-control" /><br />
+        <button type="submit" class="btn btn-primary">@(Model.Urun.urunID <= 0 ? "Add" : "Edit")</button><br />
+        <a asp-controller="Urun" asp-action="Index" class="btn btn-danger">Geri Git</a>
+    </div>
+</form>

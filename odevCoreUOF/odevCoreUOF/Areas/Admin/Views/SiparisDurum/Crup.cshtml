@@ -1,0 +1,13 @@
+﻿@model ModelLayer.siparisDurum
+
+<h2>Ekleme ve ya Güncelleme Ekranı</h2>
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="siparisDurumID" type="hidden" />
+    <div class="container">
+        <label>Sipariş Durum Ad:</label>
+        <input asp-for="ad" class="form-control" /><br />
+        <label>Sipariş Durum Açıklama:</label>
+        <input asp-for="aciklama" class="form-control" /><br />
+        <button type="submit" class="btn btn-primary">İşlemi Gerçekleştir</button>
+    </div>
+</form>

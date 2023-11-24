@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ModelLayer.Adresler>
+
+<div class="container">
+    <a asp-controller="Adres" asp-action="Crup" class="btn btn-outline-primary"><span>Yeni Müşteri Ekle</span></a>
+    <table id="Tablo" class="table">
+        <thead>
+            <tr>
+                <th>Adres ID:</th>
+                <th>Adres ülke:</th>
+                <th>Adres şehir:</th>
+                <th>Adres sokak:</th>
+                <th>Adres bina:</th>
+                <th>Müşteri Ad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.adresID</th>
+                    <th>@item.ulke</th>
+                    <th>@item.sehir</th>
+                    <th>@item.sokak</th>
+                    <th>@item.bina</th>
+                    <td>@item.Musteri.ad</td>
+                    <th><a asp-controller="Adres" asp-action="Crup" asp-route-id="@item.adresID" class="btn btn-outline-warning">Düzenle</a>
+                        || <a asp-controller="Adres" asp-action="Delete" asp-route-id="@item.adresID" class="btn btn-outline-danger">Sil</a></th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

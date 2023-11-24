@@ -1,0 +1,15 @@
+﻿@model ModelLayer.Kategori
+<form method="post">
+    <input asp-for="kategoriID" type="hidden" />
+    <h2>Yeni Kategori Güncelle</h2>
+    <div class="row">
+        <label asp-for="ad"></label>
+        <input asp-for="ad" class="form-control" />
+        <label asp-for="aciklama"></label>
+        <input asp-for="aciklama" class="form-control" />
+    </div>
+    <div class="row my-2">
+        <div class="col-6"><button type="submit" class="btn btn-primary">Yenile</button></div>
+        <div class="col-6"><a asp-controller="Kategori" asp-action="Index" class="btn btn-primary">Kategori Listesime Dön</a></div>
+    </div>
+</form>

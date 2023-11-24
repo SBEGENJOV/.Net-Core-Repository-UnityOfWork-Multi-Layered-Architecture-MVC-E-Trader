@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ModelLayer.KargoSirketleri>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h2>Kargo Şirket </h2>
+        </div>
+        
+    </div>
+    <div class="row">
+        <a asp-controller="KargoSirket" asp-action="Crup" class="btn btn-primary "><span>Yeni Siparis Durum</span></a>
+        <table id="Tablo" class="table table-bordered table-striped my-2">
+            <thead>
+                <tr>
+                    <th>Kargo Şirket ID</th>
+                    <th>Ad</th>
+                    <th>Açıklama</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item != null)
+                    {
+                        <tr>
+                            <td>@item.kargoSirketID</td>
+                            <td>@item.ad</td>
+                            <td>@item.aciklama</td>
+                            <td>
+                                <a asp-controller="KargoSirket" asp-action="Crup" asp-route-id="@item.kargoSirketID" class="btn btn-primary">
+                                    Edit
+                                </a>
+                                <a asp-controller="KargoSirket" asp-action="Delete" asp-route-id="@item.kargoSirketID" class="btn btn-danger">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

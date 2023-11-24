@@ -1,0 +1,17 @@
+﻿@model ModelLayer.Musteri
+
+<form method="post">
+    <input asp-for="musteriID" type="hidden"/>
+    <div class="container">
+        <label>Müşteri Adı:</label>
+        <input asp-for="ad" class="form-control" />
+        <label>Müşteri Soyad:</label>
+        <input asp-for="Soyad" class="form-control" />
+        <label>Müşteri E-Posta:</label>
+        <input asp-for="ePosta" class="form-control" />
+        <label>Müşteri Telefon:</label>
+        <input asp-for="telefon" class="form-control" /><br />
+        <button type="submit" class="btn btn-outline-primary">Güncelle</button>
+        <button asp-controller="Musteri" asp-action="Index" class="btn btn-outline-danger">Geri Git</button>
+    </div>
+</form>

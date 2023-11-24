@@ -1,0 +1,14 @@
+﻿@model ModelLayer.OdemeYontem
+
+<h2>Ekleme ve ya Güncelleme Ekranı</h2>
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="odemeYontemID" type="hidden" />
+    <div class="container">
+        <label>Ödeme Yöntem Ad:</label>
+        <input asp-for="ad" class="form-control" /><br />
+        <label>Sipariş Durum Açıklama:</label>
+        <input asp-for="aciklama" class="form-control" /><br />
+        <button type="submit" class="btn btn-primary">İşlemi Gerçekleştir</button><br />
+        <a asp-controller="KargoSirket" asp-action="Index" class="btn btn-danger">Geri Git</a>
+    </div>
+</form>

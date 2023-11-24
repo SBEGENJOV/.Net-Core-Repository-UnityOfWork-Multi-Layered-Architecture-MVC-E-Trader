@@ -1,0 +1,12 @@
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ModelLayer.siparisDurum>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h2>Kategori List</h2>
+        </div>
+        <div class="col-6">
+            <a asp-controller="SiparisDurum" asp-action="Crup" class="btn btn-primary ">
+                <span>Yeni Siparis Durum</span>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+
+        <table class="table table-bordered table-striped my-2">
+            <thead>
+                <tr>
+                    <th>Sipariş Durum ID</th>
+                    <th>Ad</th>
+                    <th>Açıklama</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item != null)
+                    {
+                        <tr>
+                            <td>@item.siparisDurumID</td>
+                            <td>@item.ad</td>
+                            <td>@item.aciklama</td>
+                            <td>
+                                <a asp-controller="SiparisDurum" asp-action="Crup" asp-route-id="@item.siparisDurumID" class="btn btn-primary">
+                                    Edit
+                                </a>
+                                <a asp-controller="SiparisDurum" asp-action="Delete" asp-route-id="@item.siparisDurumID" class="btn btn-danger">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

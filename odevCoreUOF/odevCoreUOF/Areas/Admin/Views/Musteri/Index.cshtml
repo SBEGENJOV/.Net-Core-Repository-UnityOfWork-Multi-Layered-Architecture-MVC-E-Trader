@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ModelLayer.Musteri>
+
+<div class="container">
+    <a asp-controller="Musteri" asp-action="Create" class="btn btn-outline-primary"><span>Yeni Müşteri Ekle</span></a>
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Müşteri ID</th>
+                    <th>Müşteri Ad</th>
+                    <th>Müşteri Soyad</th>
+                    <th>Müşteri E-posta</th>
+                    <th>Müşteri Telefon</th>
+                    <th>Müşteri İşlemleri</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@item.musteriID</th>
+                        <th>@item.ad</th>
+                        <th>@item.Soyad</th>
+                        <th>@item.ePosta</th>
+                        <th>@item.telefon</th>
+                        <th><a asp-controller="Musteri" asp-action="Edit" asp-route-id="@item.musteriID" class="btn btn-outline-warning">Düzenle</a> || <a asp-controller="Musteri" asp-action="Delete" asp-route-id="@item.musteriID" class="btn btn-outline-danger">Sil</a></th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+  
+</div>

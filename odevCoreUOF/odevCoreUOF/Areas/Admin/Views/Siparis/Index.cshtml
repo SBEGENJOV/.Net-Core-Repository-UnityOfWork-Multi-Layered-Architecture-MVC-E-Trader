@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ModelLayer.Siparis>
+
+<div class="container">
+    <a asp-controller="Siparis" asp-action="Crup" class="btn btn-outline-primary"><span>Yeni Sipariş Ekle</span></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sipariş ID:</th>
+                <th>Müşteri Ad:</th>
+                <th>Ödeme yöntem:</th>
+                <th>Kargo Şirket:</th>
+                <th>Ürün Ad:</th>
+                <th>Miktar:</th>
+                <th>Fiyat: </th>
+                <th>Sipariş Durumu: </th>
+                <th>Sipariş İşlemler: </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.siparisID</th>
+                    <th>@item.Musteri.ad</th>
+                    <th>@item.OdemeYontem.ad</th>
+                    <th>@item.KargoSirketleri.ad</th>
+                    <th>@item.Urun.ad</th>
+                    <td>@item.miktar</td>
+                    <td>@item.fiyat</td>
+                    <td>@item.SiparisDurum.ad</td>
+                    <td>
+                        <a asp-controller="Siparis" asp-action="Crup" asp-route-id="@item.siparisID" class="btn btn-outline-warning">Düzenle</a>
+                        || <a asp-controller="Siparis" asp-action="Delete" asp-route-id="@item.siparisID" class="btn btn-outline-danger">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

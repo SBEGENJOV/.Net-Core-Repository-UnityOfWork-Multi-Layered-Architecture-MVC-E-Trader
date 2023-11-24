@@ -1,0 +1,23 @@
+﻿@model ModelLayer.VM.AdreslerVM
+
+<h2>@(Model.Adresler.adresID <= 0 ? "Add" : "Edit")</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="Adresler.adresID" type="hidden" />
+    <div class="container">
+        <label>Adres Ülke:</label>
+        <input asp-for="Adresler.ulke" class="form-control"/><br />
+        <label>Adres Şehir:</label>
+        <input asp-for="Adresler.sehir" class="form-control" /><br />
+        <label>Adres Sokak:</label>
+        <input asp-for="Adresler.sokak" class="form-control" /><br />
+        <label>Adres Bina:</label>
+        <input asp-for="Adresler.bina" class="form-control" /><br />
+        <label>Müşteri Adı:</label>
+        <select asp-for="Adresler.musteriID" asp-items="@Model.MusteriList" class="form-control">
+            <option disabled selected>---Category Select Please</option>
+        </select><br />
+        <button type="submit" class="btn btn-primary">@(Model.Adresler.adresID <= 0 ? "Add" : "Edit")</button><br />
+        <a asp-controller="Adres" asp-action="Index" class="btn btn-danger">Geri Git</a>
+    </div>
+</form>

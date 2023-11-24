@@ -1,0 +1,45 @@
+﻿@model ModelLayer.VM.SiparisVM
+
+
+<h2>@(Model.Siparis.siparisID <= 0 ? "Add" : "Edit")</h2>
+<form method="post" class="form">
+    <input asp-for="Siparis.siparisID" type="hidden" />
+    <div class="container">
+        <label>Müşteri Ad:</label>
+        <select asp-for="Siparis.musteriID" asp-items="@Model.MusteriList" class="form-control"><br />
+            <option disabled selected>---Category Select Please</option>
+        </select>
+        <label>Ödeme Yöntemi:</label><br />
+        <select asp-for="Siparis.odemeYontemID" asp-items="@Model.OdemeYontemList" class="form-control"><br />
+            <option disabled selected>---Category Select Please</option>
+        </select><br />
+        <label>Kargo Şirket:</label><br />
+        <select asp-for="Siparis.kargoSirketID" asp-items="@Model.KargoSirketList" class="form-control">
+            <option disabled selected>---Category Select Please</option>
+        </select><br />
+        <label>Ürün Adı:</label><br />
+        <select asp-for="Siparis.urunID" asp-items="@Model.UrunList" class="form-control">
+            <option disabled selected>---Category Select Please</option>
+        </select><br />
+        <label>Sipariş Miktar:</label>
+        <input asp-for="Siparis.miktar" type="number" class="miktar form-control" /><br />
+        <label>Sipariş Fiyat:</label>
+        <input type="number" class="fiyat form-control"/>
+        <input asp-for="Siparis.fiyat" type="hidden" class="sonuc form-control" /><br />
+        <label>Sipariş Durumu:</label><br />
+        <select onclick="yaz()" asp-for="Siparis.siparisDurumID" asp-items="@Model.SiparisDurumList" class="form-control">
+            <option disabled selected>---Category Select Please</option>
+        </select><br />
+        <button type="submit" class="btn btn-primary">@(Model.Siparis.siparisID <= 0 ? "Add" : "Edit")</button>
+        <a asp-controller="Siparis" asp-action="Index" class="btn btn-danger">Geri Git</a>
+    </div>
+</form>
+<script>
+    function yaz() {
+        var fiyat = parseFloat($(".fiyat").val());
+        var miktar = parseFloat($(".miktar").val());
+        var sonuc = fiyat * miktar;
+
+        $(".sonuc").val(sonuc);
+    }
+</script>

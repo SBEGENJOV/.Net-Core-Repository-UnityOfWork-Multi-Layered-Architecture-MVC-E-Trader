@@ -1,0 +1,14 @@
+﻿@model ModelLayer.KargoSirketleri
+
+<h2>Ekleme ve ya Güncelleme Ekranı</h2>
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="kargoSirketID" type="hidden" />
+    <div class="container">
+        <label>Kargo Şirketi Adı:</label>
+        <input asp-for="ad" class="form-control" /><br />
+        <label>Sipariş Durum Açıklama:</label>
+        <input asp-for="aciklama" class="form-control" /><br />
+        <button type="submit" class="btn btn-primary">İşlemi Gerçekleştir</button><br />
+        <a asp-controller="KargoSirket" asp-action="Index" class="btn btn-danger mt-2">Geri Git</a>
+    </div>
+</form>

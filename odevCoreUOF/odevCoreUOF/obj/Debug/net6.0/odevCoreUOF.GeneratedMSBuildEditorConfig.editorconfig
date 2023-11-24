@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = odevCoreUOF
+build_property.RootNamespace = odevCoreUOF
+build_property.ProjectDir = C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\odevCoreUOF\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\S_BEGENJOV\Documents\GitHub\Bright_calisma\JS ornekler\odevCoreUOF\odevCoreUOF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Adres/Crup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRyZXNcQ3J1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Adres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/KargoSirket/Crup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2FyZ29TaXJrZXRcQ3J1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/KargoSirket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2FyZ29TaXJrZXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Kategori/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Kategori/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Musteri/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVzdGVyaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Musteri/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVzdGVyaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Musteri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVzdGVyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/OdemeYontem/Crup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT2RlbWVZb250ZW1cQ3J1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/OdemeYontem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT2RlbWVZb250ZW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/SiparisDurum/Crup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lwYXJpc0R1cnVtXENydXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/SiparisDurum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lwYXJpc0R1cnVtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Siparis/Crup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lwYXJpc1xDcnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Siparis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lwYXJpc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Urun/Crup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXJ1blxDcnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/Urun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXJ1blxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/S_BEGENJOV/Documents/GitHub/Bright_calisma/JS ornekler/odevCoreUOF/odevCoreUOF/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k3qemjizfx
