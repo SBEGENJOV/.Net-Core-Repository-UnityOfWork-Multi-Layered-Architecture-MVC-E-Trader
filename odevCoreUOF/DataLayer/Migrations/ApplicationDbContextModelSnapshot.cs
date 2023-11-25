@@ -241,6 +241,27 @@ namespace DataLayer.Migrations
                     b.ToTable("Uruns");
                 });
 
+            modelBuilder.Entity("ModelLayer.User", b =>
+                {
+                    b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"), 1L, 1);
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserPassword")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserID");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("ModelLayer.Adresler", b =>
                 {
                     b.HasOne("ModelLayer.Musteri", "Musteri")

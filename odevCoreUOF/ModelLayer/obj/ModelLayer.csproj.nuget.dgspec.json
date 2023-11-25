@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj": {}
+    "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj": {
+    "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\ModelLayer\\obj\\",
+        "outputPath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

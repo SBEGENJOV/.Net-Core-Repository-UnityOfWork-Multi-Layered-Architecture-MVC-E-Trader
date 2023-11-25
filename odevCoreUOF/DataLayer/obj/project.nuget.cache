@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xLFhaUABNrsDRagAgh+pk8D/6GyFWqxuK4ZJlaZTT8oswLChmK5xh4W6U06UnJzA8gunY9Lz3Eq1pZm8nrrTfw==",
+  "dgSpecHash": "iukjmSRY5qWlTN6AmqN5AUhDXM6a7WWKBLw/OueHtgleBSC16vR0Z1tOMyZYwLdTFZvAzaZw86F5RlxPcfp/9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

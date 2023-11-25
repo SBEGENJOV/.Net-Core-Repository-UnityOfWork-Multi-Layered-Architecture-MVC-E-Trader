@@ -22,5 +22,6 @@ namespace DataLayer
         public DbSet<Adresler> Adreslers { get; set; }
         public DbSet<Musteri> Musteris { get; set; }
         public DbSet<KargoSirketleri> KargoSirketleris { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

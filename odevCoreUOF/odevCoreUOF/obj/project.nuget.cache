@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X3HPHWCK6LHYDx7D2aylLjeWzHvniGxoW1RxMWckLDY1IVne1LUwQ3L79bpY2X5Dtn9Y+23aTKRH66bt1zii9w==",
+  "dgSpecHash": "1b9h7ZhisjwxrMXpYTSsVSG688boH7qRFF7PShifSH536rBvcmyl6r9k8UEZ1MjxdvShjfLPRu4xggjWhcr84Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\odevCoreUOF\\odevCoreUOF.csproj",
+  "projectFilePath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\odevCoreUOF\\odevCoreUOF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",

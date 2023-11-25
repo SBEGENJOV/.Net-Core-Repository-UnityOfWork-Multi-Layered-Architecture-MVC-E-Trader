@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Okjf7tupPjjPyvAK9OgiYP1owhW97OL9DMVhheypdpQ+XZCaUD982FwbfuddARQHlSJkCApOYRLF+Jo9QS6ntQ==",
+  "dgSpecHash": "LcSH9nqwonI6ifBWDFKtmF7MsYBCRk75Fr2EMF/VoAuzEcfINQ7Y22gVAcYYJxHZk70I5JG31KxTIgjLMLOzfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\Bright_calisma\\JS ornekler\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj",
+  "projectFilePath": "C:\\Users\\S_BEGENJOV\\Documents\\GitHub\\.Net-Core-Repository-UnityOfWork-Multi-Layered-Architecture-MVC-E-Trader\\odevCoreUOF\\ModelLayer\\ModelLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\S_BEGENJOV\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

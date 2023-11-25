@@ -1,6 +1,7 @@
 using DataLayer;
 using DataLayer.Repository;
 using DataLayer.Repository.IRepo;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServe
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUnityOfWork, UnityOfWork>();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
+{
+    option.ExpireTimeSpan = TimeSpan.FromMinutes(60 * 1); //ExpireTimeSpan - var sayýlan oturum süresini belirler. cookiebuilder nesnesinden türetilir.
+    option.LoginPath = "/Account/Login";
+    option.AccessDeniedPath = "/Account/Login";
+
+});
+builder.Services.AddSession(option =>
+{
+
+    option.Cookie.IsEssential = true;
+
+});
 
 var app = builder.Build();
 
@@ -30,10 +44,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{area=Admin}/{controller=Kategori}/{action=Index}/{id?}");
+    pattern: "{area=Admin}/{controller=Account}/{action=Login}/{id?}");
 
 app.Run();
